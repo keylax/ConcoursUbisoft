@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: ce97d32c5a6bf004ca3972b0ce2fca41
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Core_Jetpack
+    100002: //RootNode
+    100004: Jetpack_Head
+    100006: Jetpack_OrnementLeft
+    100008: Jetpack_OrnementLeft1
+    100010: Jetpack_PaleBack
+    100012: Jetpack_PaleLeft
+    100014: Jetpack_PaleRight
+    400000: Core_Jetpack
+    400002: //RootNode
+    400004: Jetpack_Head
+    400006: Jetpack_OrnementLeft
+    400008: Jetpack_OrnementLeft1
+    400010: Jetpack_PaleBack
+    400012: Jetpack_PaleLeft
+    400014: Jetpack_PaleRight
+    2100000: Core_JetpackMat
+    2100002: Jetpack_HeadMat
+    2100004: Jetpack_OrnementLeftMat
+    2100006: Jetpack_OrnementLeft1Mat
+    2100008: Jetpack_PaleBackMat
+    2100010: Jetpack_PaleLeftMat
+    2100012: Jetpack_PaleRightMat
+    2300000: Core_Jetpack
+    2300002: Jetpack_Head
+    2300004: Jetpack_OrnementLeft
+    2300006: Jetpack_OrnementLeft1
+    2300008: Jetpack_PaleBack
+    2300010: Jetpack_PaleLeft
+    2300012: Jetpack_PaleRight
+    3300000: Core_Jetpack
+    3300002: Jetpack_Head
+    3300004: Jetpack_OrnementLeft
+    3300006: Jetpack_OrnementLeft1
+    3300008: Jetpack_PaleBack
+    3300010: Jetpack_PaleLeft
+    3300012: Jetpack_PaleRight
+    4300000: Core_Jetpack
+    4300002: Jetpack_Head
+    4300004: Jetpack_OrnementLeft
+    4300006: Jetpack_OrnementLeft1
+    4300008: Jetpack_PaleBack
+    4300010: Jetpack_PaleLeft
+    4300012: Jetpack_PaleRight
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Core_JetpackMat
+    second: {fileID: 2100000, guid: 81cb830924682fe43a832dd9268ac475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jetpack_HeadMat
+    second: {fileID: 2100000, guid: 81cb830924682fe43a832dd9268ac475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jetpack_OrnementLeft1Mat
+    second: {fileID: 2100000, guid: 81cb830924682fe43a832dd9268ac475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jetpack_OrnementLeftMat
+    second: {fileID: 2100000, guid: 81cb830924682fe43a832dd9268ac475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jetpack_PaleBackMat
+    second: {fileID: 2100000, guid: 81cb830924682fe43a832dd9268ac475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jetpack_PaleLeftMat
+    second: {fileID: 2100000, guid: 81cb830924682fe43a832dd9268ac475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jetpack_PaleRightMat
+    second: {fileID: 2100000, guid: 81cb830924682fe43a832dd9268ac475, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8168382214979125895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8168382214979125894}
+  - component: {fileID: 8168382214979125892}
+  - component: {fileID: 8168382214979125893}
+  - component: {fileID: 8168382214979125891}
+  - component: {fileID: 8168382214979125890}
+  - component: {fileID: 8168382214979125889}
+  - component: {fileID: 7425460061400449070}
+  - component: {fileID: 8168382214979125888}
+  - component: {fileID: 7334509464798349486}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8168382214979125894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8168382214979125892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7302da617cf9fd1498d95c2b7e0cdd1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 0}
+  autoScrollSpeed: 1.4
+  cameraTranslationSpeed: 13
+  platformingCameraZPosition: -20
+  miniGameCameraZPosition: -30
+  _cameraIsMovingToNewPosition: 0
+--- !u!114 &8168382214979125893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453656f956fac9489bf4f19639ee381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfPlayers: 1
+  spawnPoint: {fileID: 0}
+  playerPrefab: {fileID: 4258874781304686664, guid: 585ddae0aface224cbfb3b7f2646ed17,
+    type: 3}
+  firstPollDuration: 30
+  isPaused: 0
+  playerPaused: 0
+  _ending: 0
+--- !u!114 &8168382214979125891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e746bf7b6f18c34783fc0cfada3f36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownDuration: 3
+  startAutoScrollTime: 1
+  timeBeforeIncrementingFirstPoints: 0.5
+  platforming: 0
+  platformingWon: 0
+--- !u!114 &8168382214979125890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db0f5fbd31878143aa7d3b3e2bc64d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfMiniGameRooms: 4
+  numberOfMiniGameRoomsPerPoll: 2
+  numberOfPlatformingEventsPerPoll: 2
+  hubMap: {fileID: 5770248080235564859, guid: 4c9b413cd0ef98e46a10dd39ada82827, type: 3}
+  miniGameMapSkeleton: {fileID: 977125863846873936, guid: 350c2b64681161542872792ab63fa450,
+    type: 3}
+  platformingMaps:
+  - {fileID: 741781913707595809, guid: 5623fdae82a2f2443a4d6f61716745f9, type: 3}
+  - {fileID: 6966634993743751123, guid: 6cebe3cfe4119b241af289b3e6c382f8, type: 3}
+  - {fileID: 6966634993743751123, guid: 482c886205ef3614d938fb79ca1a24ba, type: 3}
+  - {fileID: 6966634993743751123, guid: 0647a4e2eb87011498997826a7826821, type: 3}
+  - {fileID: 6966634993743751123, guid: 176218e3d508eac4192b1adaf7d27926, type: 3}
+  miniGameMaps:
+  - {fileID: 663445721512246067, guid: bf0b66f8b89c02c4dbbb7006023e2ab5, type: 3}
+  - {fileID: 663445721512246067, guid: 892a50c5864fc734c84d26aac4f73355, type: 3}
+  - {fileID: 663445721512246067, guid: f42c1d6d6b9743f44aa8487d1d6b2f11, type: 3}
+  - {fileID: 3020770907478697285, guid: 218654c60ec9eaf458072f784f016ddb, type: 3}
+  - {fileID: 71680258, guid: 5fc3b3ee573da6b48a8fe76a739d0248, type: 3}
+  bossMap: {fileID: 70978600389382704, guid: dcc6f324333700344b0301510abe9e43, type: 3}
+  miniGameHidingSpot: {x: 100, y: 100, z: 0}
+--- !u!114 &8168382214979125889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0beba7c88af8eb46a9a4c70ac78caba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7425460061400449070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75cf3cd2affca5428c876328600f12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPickerPrefab: {fileID: 77771728325195169, guid: de1d7ea18c7aba745be5f01294b857ae,
+    type: 3}
+--- !u!114 &8168382214979125888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c8bf02fe4f8bf40a07dc14b0a46cd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7334509464798349486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168382214979125895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d861bea7b52f04cbcc14864f5c730c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

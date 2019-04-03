@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3591030217945150812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3591030217945150791}
+  - component: {fileID: 3591030217945150790}
+  - component: {fileID: 3591030217945150809}
+  - component: {fileID: 3591030217945150808}
+  - component: {fileID: 3591030217945150811}
+  - component: {fileID: 3591030217945150810}
+  - component: {fileID: 3591030217945150813}
+  m_Layer: 0
+  m_Name: PlatformingEventController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3591030217945150791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591030217945150812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3591030217945150790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591030217945150812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a83c08dd86cd6c4da3d8a660c284289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3591030217945150809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591030217945150812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c255e0404330d3b42b51094f40e765c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logo: {fileID: 21300000, guid: b9cd3bb0557a51e42acc38e72612a05f, type: 3}
+  pickEventLine:
+  - subtitles: Blackout? Awesome!
+    line: {fileID: 8300000, guid: 873b9b66a42d61641b004bf7bdd9c8e9, type: 3}
+    importance: 1
+  - subtitles: Blackout? Great choice!
+    line: {fileID: 8300000, guid: ed896e44876f8aa4fb9e0007a244a253, type: 3}
+    importance: 1
+  happeningLine:
+  - subtitles: Hope you're not afraid of the dark!
+    line: {fileID: 8300000, guid: edf72c0398856ea4abbce06a22fffceb, type: 3}
+    importance: 3
+  - subtitles: Oh! Who turned the lights off? Oops, it was me!
+    line: {fileID: 8300000, guid: 611cc443359bea24f99cdaa4e2062f29, type: 3}
+    importance: 3
+  timeLightsOff: 5
+  timeLightsOn: 8
+  gameLight: {fileID: 0}
+--- !u!114 &3591030217945150808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591030217945150812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11626ed813c1d9642b48f5758c6d2554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logo: {fileID: 21300000, guid: aba14fe8525de1e4c8f2040cf8a711ff, type: 3}
+  pickEventLine:
+  - subtitles: Oooouh! Laser beams!
+    line: {fileID: 8300000, guid: 654ceaac0d1e14d4893600d710e934e9, type: 3}
+    importance: 1
+  - subtitles: Laser beams? Now that's more like it!
+    line: {fileID: 8300000, guid: 564549b4145d8744f838b44139e45f0e, type: 3}
+    importance: 1
+  happeningLine:
+  - subtitles: Lasers are just light, so they shouldn't hurt... right?
+    line: {fileID: 8300000, guid: 9b99740192c65104caa94f6be46d8ade, type: 3}
+    importance: 3
+  - subtitles: You can try to touch one... buuut I don't recommend it!
+    line: {fileID: 8300000, guid: 8e88a99a85c5a8d46b7a08b5f9cfe50d, type: 3}
+    importance: 3
+  laserPrefab: {fileID: 5931128005154043593, guid: 793c9d410bc81384f90c809a4d2c5817,
+    type: 3}
+--- !u!114 &3591030217945150811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591030217945150812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43cfbee2c34426408d2a108814e9cc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logo: {fileID: 21300000, guid: cd78de6d09c020d43b81b4745cae63ef, type: 3}
+  pickEventLine:
+  - subtitles: These robots might "SCREW" you over! Get it?
+    line: {fileID: 8300000, guid: 001bb0464324b3a41a78d27b3ee25df1, type: 3}
+    importance: 1
+  - subtitles: Robots? This should be good!
+    line: {fileID: 8300000, guid: 1919a2d23da89e44394f95b6bf4791e0, type: 3}
+    importance: 1
+  happeningLine:
+  - subtitles: Please don't kill to many... They're really expensive.
+    line: {fileID: 8300000, guid: 60b5792ec93d9644b887ce90ead0d161, type: 3}
+    importance: 3
+  - subtitles: Not quite your R2D2 or your BB8, buuut they get the job done!
+    line: {fileID: 8300000, guid: 972da979898e3ca46a1fef02cbfad370, type: 3}
+    importance: 3
+  robotPrefab: {fileID: 4258874781304686664, guid: 3cabfad06ba71de42a9aacea7cec7084,
+    type: 3}
+--- !u!114 &3591030217945150810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591030217945150812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d22464cd9e72344ae35dd665a73c1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logo: {fileID: 21300000, guid: c2fcf66a40a1de94281798d2cd674a45, type: 3}
+  pickEventLine:
+  - subtitles: Saws? Now you're talking!
+    line: {fileID: 8300000, guid: 5e6291574220ea942b77ea835a2ea024, type: 3}
+    importance: 1
+  - subtitles: Saws? I love this one!
+    line: {fileID: 8300000, guid: 8139dd67ba03fbd41abf6dd01f9a39cf, type: 3}
+    importance: 1
+  happeningLine:
+  - subtitles: Aww, this event requires so much cleaning afterwards... Oh well!
+    line: {fileID: 8300000, guid: 0fe47bd83b7418747b0cdc1d384b205c, type: 3}
+    importance: 3
+  - subtitles: Let's try not to make this show rated R, all right?
+    line: {fileID: 8300000, guid: 68b46da56d1b9e4419e858e65256326c, type: 3}
+    importance: 3
+  sawPrefab: {fileID: 4075781037993993956, guid: bbb06bda6f31a0145ad3d44ee8d82893,
+    type: 3}
+--- !u!114 &3591030217945150813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591030217945150812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c3fa038c8872c4aab8f6daa21bcf10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logo: {fileID: 21300000, guid: c7e48ce185129664f8618554ac6010f3, type: 3}
+  pickEventLine:
+  - subtitles: Teddy bear bombs falling from the ceiling? Oh yeah!
+    line: {fileID: 8300000, guid: 259590a5f28cb7b4cb5836d888c14ae3, type: 3}
+    importance: 1
+  - subtitles: Teddy bear bombs? That's cute!
+    line: {fileID: 8300000, guid: 02d968906b324d54cab4c568687d0b55, type: 3}
+    importance: 1
+  happeningLine:
+  - subtitles: Believe me, you don't want to hug these!
+    line: {fileID: 8300000, guid: 19e68fd05e359e24fbf1208dc3dc4666, type: 3}
+    importance: 3
+  - subtitles: These are waaay more dangerous than they appear!
+    line: {fileID: 8300000, guid: b4d514890a6c98447b8b29a387a639ca, type: 3}
+    importance: 3
+  teddyBearBomb: {fileID: 723767013227553502, guid: 582939bdbea3c1e46afe7cc5ba8a0762,
+    type: 3}
+  timeBeforeBeginningToSpawnBombs: 2
+  timeBetweenBombSpawns: 1.75
+  cameraDistanceFromCenterForSpawn: 16
+  spawnDistanceFromCeiling: 3
+  radiusExplosion: 4
+  forceKnockBack: 1500

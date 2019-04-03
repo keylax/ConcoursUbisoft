@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3609925138574316229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3609925138574316230}
+  - component: {fileID: 6090085566588753969}
+  - component: {fileID: 5597105777342579683}
+  m_Layer: 0
+  m_Name: SpeakerLinesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3609925138574316230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609925138574316229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 338.65637, y: 170.84024, z: 34.939697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6090085566588753969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609925138574316229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2515abb6bbc7a4c409a16484d89d3cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hubLineOrder: 020000000300000004000000
+  hubLines:
+  - subtitles: Those are our contestants? That looks promising!
+    line: {fileID: 8300000, guid: 524db151bdc75a044bb22bcaa315b796, type: 3}
+    importance: 3
+  - subtitles: Now, let's go see what you voted for the first platforming event.
+    line: {fileID: 8300000, guid: b0a8481b96078b045a3a228ad92abf49, type: 3}
+    importance: 3
+  - subtitles: Ladies and gentlemen! Welcome to The Running Dead!
+    line: {fileID: 8300000, guid: 574670f41d6c0d445a61c15607512a03, type: 3}
+    importance: 2
+  - subtitles: Let's all get ready to have some fun! ...but mostly me.
+    line: {fileID: 8300000, guid: 3e08fc5385a10ce4baf1b3af1328073d, type: 3}
+    importance: 3
+  - subtitles: Don't forget to vote for your events or minigames you would like to
+      see today!
+    line: {fileID: 8300000, guid: cfcb6dc1517db2b439fcd4d0437557b2, type: 3}
+    importance: 1
+  hub: 1
+  votesLines:
+  - subtitles: You can now vote for the next minigame!
+    line: {fileID: 8300000, guid: 84060c6347ba5a54092f104b92040fc1, type: 3}
+    importance: 2
+  - subtitles: You can now vote for the next platforming event!
+    line: {fileID: 8300000, guid: 90093889dd5f191479065000f2f2bdf0, type: 3}
+    importance: 2
+  bossEntranceLine:
+    subtitles: Congratulations! You've made it this far. But now... it's time to have
+      some real fun.
+    line: {fileID: 8300000, guid: 9090f2d61a7a13a4fbda6d0569bcd7dd, type: 3}
+    importance: 2
+  bossPhaseThreeLine:
+    subtitles: Now you're really starting to irritate me... Alright, time to bring
+      out the big lasers!
+    line: {fileID: 8300000, guid: 8afe7442962354e4baa4b4e7ef0fdd74, type: 3}
+    importance: 2
+  bossRandomLines:
+  - subtitles: Oh oh...
+    line: {fileID: 8300000, guid: 6d975311100df234d8ff27702cc8ba41, type: 3}
+    importance: 2
+  - subtitles: Oh oh...
+    line: {fileID: 8300000, guid: 23e518a493c20bd4eb1279530cf28c2b, type: 3}
+    importance: 2
+  bossTransitionLines:
+  - subtitles: Ha! It's just a flesh wound. You've seen nothing yet...
+    line: {fileID: 8300000, guid: f6b1a0219e4d233468218f6f70e7819a, type: 3}
+    importance: 2
+  pressurePlateLines:
+  - subtitles: Go to your pressure plates to start the minigame!
+    line: {fileID: 8300000, guid: 5e9c42065998fb943a477813d9c20ecc, type: 3}
+    importance: 2
+  - subtitles: Go to the pressure plate to start the platforming section!
+    line: {fileID: 8300000, guid: 8a29f735aa8f18d4297d45e8a1c3571c, type: 3}
+    importance: 2
+  mGAlmostOverLines:
+  - subtitles: Aaaalmost there!
+    line: {fileID: 8300000, guid: f817e77ffce069e42b549cba00c4c36e, type: 3}
+    importance: 2
+  - subtitles: Aaaalmost over!
+    line: {fileID: 8300000, guid: 041be8050971e164e87db1672497ee92, type: 3}
+    importance: 2
+  - subtitles: Juuuust a little bit more!
+    line: {fileID: 8300000, guid: 4b3e609f53647314793f18a6862a2936, type: 3}
+    importance: 2
+  - subtitles: Sooo who's it gonna be!?
+    line: {fileID: 8300000, guid: cb6dfdf152c7ff54a9df8947072d9c20, type: 3}
+    importance: 2
+  mGStartLines:
+  - subtitles: Good luck! ...but not really.
+    line: {fileID: 8300000, guid: 47a339a31d88cc44aa7c7719e8609cec, type: 3}
+    importance: 2
+  - subtitles: Have fun! ...but not too much.
+    line: {fileID: 8300000, guid: 8a3e44bfed56f9d47888c0052c6cf62a, type: 3}
+    importance: 2
+  - subtitles: Try to play nice! ...but not too nice.
+    line: {fileID: 8300000, guid: 1308d4f40bfa73a40a4038d346be56f1, type: 3}
+    importance: 2
+  - subtitles: Let's get ready to ruuumble! That's what they usually say, right?
+    line: {fileID: 8300000, guid: 723d8374416958d47998ef0aa5478277, type: 3}
+    importance: 2
+  - subtitles: Iiiiiit's showtime!
+    line: {fileID: 8300000, guid: 2f672fa07c33eaa4a861a306f6217113, type: 3}
+    importance: 2
+  mGWinLines:
+  - subtitles: Already done? Muh... Ok! Enjoy your new item!
+    line: {fileID: 8300000, guid: 4638911071c11ee469b682fba63f126b, type: 3}
+    importance: 2
+  - subtitles: Is that what you call entertainment? I guess... Here! Enjoy!
+    line: {fileID: 8300000, guid: f28c6195c0bbfdf4794da5270434d878, type: 3}
+    importance: 2
+  - subtitles: Quite an impressive performance! Here, your reward!
+    line: {fileID: 8300000, guid: 1fadb2d80df09ea46965ab3827ffbbc7, type: 3}
+    importance: 2
+  - subtitles: Nice win! But don't you think it's over just yet! Here you go!
+    line: {fileID: 8300000, guid: c7d67ea7061e6244ba010e66d924396e, type: 3}
+    importance: 2
+  - subtitles: A tie?! That's boring... No one gets an item!
+    line: {fileID: 8300000, guid: 48d67a1f9ad7bb14094139e28bb9f3a0, type: 3}
+    importance: 2
+  platformingChirpsLines:
+  - subtitles: Boooring! I wanna see some action!
+    line: {fileID: 8300000, guid: c4d6c72f3bf5e6248ba378c8d1e6d3c8, type: 3}
+    importance: 3
+  - subtitles: Let's keep it civilized! ...or not!
+    line: {fileID: 8300000, guid: f910bd194af4e8c4c99ce27096080c8a, type: 3}
+    importance: 3
+  - subtitles: Oh come on, my grandmother runs faster than that!
+    line: {fileID: 8300000, guid: 958954ed8e5ff6e4fb7e6fceccf9a69d, type: 3}
+    importance: 3
+  - subtitles: Did you forget how to use your legs?
+    line: {fileID: 8300000, guid: 11b7d757e1798bf49b417f858188d627, type: 3}
+    importance: 3
+  - subtitles: You know it's a race... right?
+    line: {fileID: 8300000, guid: 1032169d2754c2c46879e991fe175c62, type: 3}
+    importance: 3
+  platformingEndLines:
+  - subtitles: Good job! That was really boring... but good job!
+    line: {fileID: 8300000, guid: bdc746f8944864b4e9c405a6530cea68, type: 3}
+    importance: 3
+  - subtitles: Nice, nice, nice... Anyway, I think you'll like this next minigame!
+      ...probably.
+    line: {fileID: 8300000, guid: e130e36fbffb4d44ba7eb57bc6519b37, type: 3}
+    importance: 3
+  - subtitles: Good job! Points for you! Aaaand none for you.
+    line: {fileID: 8300000, guid: fb97840eb78b7b74db345fd35f8292a4, type: 3}
+    importance: 3
+  - subtitles: That was the worst race ever! But you did win, so... *Clap* *Clap*
+      *Clap*
+    line: {fileID: 8300000, guid: 72aa578df2fcb6244844661bbc78e9ba, type: 3}
+    importance: 3
+  - subtitles: We've got a winner winner zombiiie dinner!
+    line: {fileID: 8300000, guid: a497aca97c6ce5f4e9091613dfa3a091, type: 3}
+    importance: 3
+  platformingEntranceLines:
+  - subtitles: Three, two, one...
+    line: {fileID: 8300000, guid: 082f19d7956f99b4ab902b113c630b3d, type: 3}
+    importance: 3
+  - subtitles: Three, two, one...
+    line: {fileID: 8300000, guid: 0ce6ea5604e99fa4a89409e30d1c0484, type: 3}
+    importance: 3
+  - subtitles: Three, two, one...
+    line: {fileID: 8300000, guid: b79389d26dd30254bb6e1b0150298ccd, type: 3}
+    importance: 3
+  - subtitles: Three, two, one...
+    line: {fileID: 8300000, guid: 0d1211fe073722b43b3bcc375852c2b4, type: 3}
+    importance: 3
+  - subtitles: Fight! I mean... Run!
+    line: {fileID: 8300000, guid: e841514e3d4f8974d92fdb99554e5954, type: 3}
+    importance: 3
+  - subtitles: Go!
+    line: {fileID: 8300000, guid: 5e593976f27b85f47973c79893ebc10c, type: 3}
+    importance: 3
+  - subtitles: Go go gooo!
+    line: {fileID: 8300000, guid: ee46fabeb4e9c31418feef4ed5b80e1c, type: 3}
+    importance: 3
+  - subtitles: Ruuun!
+    line: {fileID: 8300000, guid: b9b2d450ca2ea294587f3e4734c20ef3, type: 3}
+    importance: 3
+  - subtitles: Run run run!
+    line: {fileID: 8300000, guid: 269b2b2b9e0d0394d95131fb8a98aa87, type: 3}
+    importance: 3
+--- !u!82 &5597105777342579683
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609925138574316229}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
